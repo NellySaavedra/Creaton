@@ -1,0 +1,78 @@
+/* Inserta tu codigo CSS aqui */
+/* Header */
+#header{
+	background-image: url("../img/header.jpg");
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	color: white;
+}
+#header a{
+	color: white;
+}
+#header p{
+	font-size: 16px;
+}
+.navbar-default{
+	background-color: transparent !important;
+}
+.text-header{
+	padding-top: 15%;
+}
+/* Lineas */
+.hr-rosa{
+	background-color: #F55833;
+	width: 8%;
+	height: 3px;
+	border-top: none !important;
+}
+.hr-blanca{
+	background-color: #ffffff;
+	width: 8%;
+	height: 3px;
+}
+/* Background color */
+.bg-rosa{
+	background-color:#F55833;
+}
+.bg-white{
+	background-color: #ffffff;
+}
+.bg-black{
+	background-color: #000000;
+}
+/* Text */
+.text-white{
+	color: white;
+}
+/* Icons */
+.ico{
+	font-size: 20px;
+}
+#Servicios i{
+	font-size: 2em;
+	color: #F55833;
+}
+/*Margin y Padding*/
+.mt-5{
+	margin-top: 5%;
+}
+.mb-5{
+	margin-bottom: 5%;
+}
+.pd-0{
+	padding: 0;
+}
+.mt-2{
+	margin-top: 2%;
+}
+/*Barra color*/
+#barra-color{
+	height: 50px;
+	background-color: #DE5551;
+}
+#SobreMi p{
+	font-size: 16px;
+}
