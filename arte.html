@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Título -->
+	<title>La Pirinola</title>
+	<!-- Icono -->
+	<link rel="icon" href="img/icon.png">
+	<!-- // css -->
+	<link rel="stylesheet" href="Assets/css/bootstrap.css">
+	<link rel="stylesheet" href="Assets/css/main.css">
+	<!-- // js -->
+	<link rel="stylesheet" href="Assets/js/bootstrap.min.js">
+	<link rel="stylesheet" href="Assets/js/jquery-min">
+	<!-- Fuentes -->
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link rel="stylesheet" href="Assets/ParaAnimaciones/animate.min.css">
+	<!-- Relacion de páginas -->
+	<link rel="stylesheet" href="generacion.html">
+</head>
+	<body>
+		<div class="container blanco">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="text-center">Comida</h2>
+					<h4 class="text-center">¿Cuál es tu top 3?</h4>
+					<input type="checkbox" name="" value="1" class="WCheck">Típica<br>
+					<input type="checkbox" name="" value="2" class="WCheck">Exótica<br>
+					<input type="checkbox" name="" value="3" class="WCheck">Restaurant-Bar<br>
+					<input type="checkbox" name="" value="4" class="WCheck">Vegetariana<br>
+					<input type="checkbox" name="" value="5" class="WCheck">Postres<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<h4 class="text-center">¿Vas sola o acompañada?</h4>
+					<input type="checkbox" name="" value="1" class="WCheck">Sola<br>
+					<input type="checkbox" name="" value="3" class="WCheck">Cena romántica<br>
+					<input type="checkbox" name="" value="2" class="WCheck">Plan de amigos<br>
+					<input type="checkbox" name="" value="4" class="WCheck">Destrucción Total!<br>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<h4 class="text-center">Chilometro</h4>
+					<form action="action_page.php" method="get">
+						Cero picante
+						<input type="range" name="points" min="0" max="1000" class="Rango">
+						Habanero doble
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+				 	<h4 class="text-center">Presupuesto</h4>
+					<form action="action_page.php" method="get">
+						Ando corta
+						<input type="range" name="points" min="0" max="1000" class="Rango">
+						Soy millonaria!!!
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center Mtop5">
+					<a href="categorias.html" class="text-center"><button>Regresar</button></a>
+					<a href="generacion.html" class="text-center"><button>Continuar</button></a>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<!-- SCRIPTS -->
+			<script>window.addEventListener("hashchange", function() { scrollBy(0, -90) })</script>
+			<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+			<script type="text/javascript" src="./Assets/js/bootstrap.min.js"></script>	
+			<script src="./Assets/js/jquery-min.js"></script>	
+			<script src="Assets/ParaAnimaciones/wow.min.js"></script>
+		    <script>
+		        new WOW().init();
+		    </script>		
+	</body>
+</html>
